@@ -11,7 +11,7 @@ World weather data was retrieved on November 27, 2021, and saved to a [csv file]
 Using the csv file above, and the Google Directions API, a new list of cities and nearby hotels was compiled, based on a user-selected maximum temperature range (in this case: 75 to 90 F); the data was cleaned up, and saved to a [csv file](vacation_search/vacation_search.csv). 
 
 ## Summary
-This resulting information is displayed in Google Maps:
+This resulting information is displayed in Google Maps. Most results appear near the equator, or in the Southern hemisphere because temperatures tend to lower in the northern hemisphere this time of the year:
 ![screenshot Google Maps showing available hotels](vacation_search/WeatherPy_vacation_map.png)
 *Screenshot of the resulting Google Maps interface, displaying nearby hotels in locations with max temp between 75 and 90 F.*
 
@@ -20,5 +20,5 @@ Using the above map, 4 cities are selected, and an itinerary route is created:
 *Screenshot of the resulting Google Maps interface, displaying an itinerary based on 4 selected cities.*
 
 For these 4 cities, a new map is created, displaying the compiled information, which includes hotel and weather information:
-![screenshot Google Maps showing itinerary](vacation_search/WeatherPy_travel_map_markers.png)
+![screenshot Google Maps showing itinerary](vacation_itinerary/WeatherPy_travel_map_markers.png)
 *Screenshot of the resulting Google Maps interface, displaying nearby hotel, weather description and temperature for the 4 cities in the itinerary.*
